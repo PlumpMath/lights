@@ -16,6 +16,7 @@ type LSuite struct{
    smallGridMoves  []Move
    game Game
 }
+
 func (s* LSuite) SetUpTest(c *C){
   s.Grid = [][]uint8{
     {0,1,1,0,1,1,0,0},
